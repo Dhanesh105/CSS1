@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-4</title>
+</head>
+<style>
+    body{
+        background: url(https://cdn.pixabay.com/photo/2017/01/31/15/37/evergreen-2025158_1280.png);
+        background-repeat: no-repeat;
+    }
+    #main-container{
+        width:1280px;
+        height: 600px;
+        display: flex;
+        align-items: end;
+    }
+    #kitten-image{
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        margin: 0px 50px 10px 40px;
+    }
+    #puppy-image{
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        margin: 0px 50px 20px 50px;
+    }
+
+    #roof1{
+        border-bottom: 130px solid rgb(221, 151, 21);
+        border-left: 115px solid transparent;
+        border-right:115px solid transparent ;
+        width: 0;
+        margin: 0px 50px 0px 0px;
+    }
+    #roof2{
+        border-bottom: 160px solid rgb(235, 159, 19);
+        border-left: 150px solid transparent;
+        border-right:150px solid transparent ;
+        width: 0;
+        margin: 0px 50px 0px 0px;
+    }
+</style>
+<body>
+    <h1 align="center">Build Houses for Kitten & Puppy</h1>
+    <div id="main-container">
+        <div id="house1">
+            <div id="roof1"></div>
+            <div id="wall1">
+            <img id="kitten-image" src="https://cdn.pixabay.com/photo/2020/11/15/18/31/cat-5746771_1280.png" alt="">
+            </div> 
+        </div>
+
+        <div id="house2">
+            <div id="roof2"></div>
+            <div id="wall2">
+            <img id="puppy-image" src="https://cdn.pixabay.com/photo/2020/08/10/22/32/dog-5478891_1280.png" alt="">
+            </div> 
+        </div>
+    </div>
+    
+</body>
+</html>
